@@ -6,7 +6,7 @@
 \bibliography{papers}
 
 % Choose theme, e.g. black, RedViolet, ForestGreen, MidnightBlue
-\def\theme{black}
+\def\theme{RoyalPurple}
 
 % More predefined colors can be found in 
 % https://en.wikibooks.org/wiki/LaTeX/Colors
@@ -18,34 +18,32 @@
 \begin{document}
 
 % Heading
-\headinginline{Doruk Çetin}{
-    Phone: +41 77 471 32 91 \\
-    Email: \email{jonas.gschwendm.me} \\
-    LinkedIn: \linkedin{jonas-gschwend-b78711195} \\
-    GitHub: \github{chif142}
-}
-
-% \headingphoto{Jonas Gschwend}{
-%     Phone: +41 77 471 32 91 \\
-%     Email: \email{jonas.gschwendm.me} \\
+% \headinginline{Jonas Gschwend}{
+%     Email: \email{jonas.gschwend@pm.me} \\
 %     LinkedIn: \linkedin{jonas-gschwend-b78711195} \\
-%     GitHub: \github{chif142}
-% }{photo.png}
+%     GitHub: \github{gschwendj}
+% }
+
+\headingphoto{Jonas Gschwend}{
+    Email: \email{jonas.gschwend@pm.me} \\
+    LinkedIn: \linkedin{jonas-gschwend-b78711195} \\
+    GitHub: \github{gschwendj}
+}{me.jpg}
 
 % Page One
-% \import{sections/}{education.tex}
-% \import{sections/}{experience.tex}
+\import{sections/}{education.tex}
+\import{sections/}{experience.tex}
 % \import{sections/}{publications.tex}
 
 \pagebreak
 
 % Page Two
 % \import{sections/}{teaching.tex}
-% \sidebyside
-% {\import{sections/}{skills.tex}}
-% {\import{sections/}{languages.tex}}
+\sidebyside
+{\import{sections/}{skills.tex}}
+{\import{sections/}{languages.tex}}
 % \import{sections/}{projects.tex}
 % \import{sections/}{awards.tex}
-% \import{sections/}{volunteering.tex}
+\import{sections/}{volunteering.tex}
 
 \end{document}
